@@ -1,0 +1,40 @@
+.add-card-form {
+  margin: 30px 0 20px 0;
+}
+
+.fields {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fields__label {
+  font-family: 'PT Mono';
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 4px;
+}
+.fields__input,
+.fields__select {
+  height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 0 8px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.separation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.separation aside {
+  flex: 1;
+}
+
+.separation aside:last-child {
+  margin-left: 12px;
+}

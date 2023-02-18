@@ -1,0 +1,34 @@
+.card-stack {
+  margin: 30px 0 10px 0;
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+
+.card-stack__items {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.card-stack__items--card-1 {
+  z-index: 10;
+  top: 100px;
+}
+.card-stack__items--card-2 {
+  z-index: 9;
+  top: 50px;
+}
+.card-stack__items--card-3 {
+  z-index: 8;
+  top: 0;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #000;
+}
