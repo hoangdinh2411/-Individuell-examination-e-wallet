@@ -39,10 +39,9 @@ export default function HomePage() {
 
   const removeCard = () => {
     const newCards = cards?.filter((_, index) => index !== pickedCardIndex)
-    removeDataFromLocalStorage('picked-card')
     saveDataOnLocalStorage('cards', newCards)
     setCards(newCards)
-    setPickedCardIndex(0)
+    handleChangeCard(0)
   }
 
   return (

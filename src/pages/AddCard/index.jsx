@@ -66,7 +66,7 @@ export default function AddCardPage() {
     if (card.vendorIndex === 0) {
       result = false
     }
-
+    
     return result
   }
   return (
